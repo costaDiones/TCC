@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>CAOSSC</title>
+
+		<!-- Bootstrap Core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- Custom Fonts -->
+		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+
+		<div id="topo" class="row topo">
+
+			<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+			<nav id="sidebar-wrapper">
+				<ul class="sidebar-nav">
+					<a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fechar fa fa-times"></i></a>
+					<li class="sidebar-brand">
+						<a href="admin.html"  onclick = $("#menu-close").click(); >Página Inicial</a>
+					</li>
+					<li>
+						<a href="novoCadastro.php" onclick = $("#menu-close").click(); >Companhia</a>
+					</li>
+					<li>
+						<a href="completarCadastro.php"  >Serviços</a>
+					</li>
+					<li>
+						<a href="esqueceuSenha.php"  >Qualidade da Água</a>
+					</li>
+
+					<li>
+						<a href="#noossoTrabalho" onclick = $("#menu-close").click();>Recursos Hídricos e Meio Ambiente</a>
+					</li>
+
+					<li>
+						<a href="#contato" onclick = $("#menu-close").click(); >Contatos</a>
+					</li>
+
+				</ul>
+			</nav>
+		</div>
+
+		<header id="top" class="header ">
+			
+			<ul id="cbp-bislideshow" class="cbp-bislideshow">
+					
+					<li><img src="images/agua2.jpg" alt="image02"/>
+					</li>
+					<li><img src="images/agua11.jpg" alt="image03"/>
+					</li>
+					<li><img src="images/agua13.JPG" alt="image04"/>
+					</li>
+					<li><img src="images/agua_7.jpg" alt="image04"/>
+					</li>
+					
+					
+				</ul>
+			
+			
+			<div class="text-vertical-center col-xs-12 ">
+				<h1>CAOSC</h1>
+				<h3>Compania de Água do Oeste de Santa Catarina</h3>
+				<br>
+			</div>
+
+			<div class="container">
+				<div class="login1 col-md-4 col-md-offset-4 " id="login">
+					<h1>Entre com o Login</h1>
+
+					<form action="#">
+						<div class="input-group input-group-lg">
+							<span class="input-group-addon"><i class="fa fa-user"></i></span>
+							<input type="text" class="form-control" placeholder="E-mail">
+						</div>
+
+						<div class="input-group input-group-lg">
+							<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+							<input type="password" class="form-control" placeholder="Senha">
+						</div>
+						<li>
+							<div class="help-block ">
+								<a id="esqueceu-senha" href="#" data-toggle="modal" data-target="#myModal">Esqueceu sua senha?</a>
+							</div>
+
+						</li>
+						<li>
+							<a href="novoCadastro.php" >Novo Cadastro</a>
+
+						</li>
+						<button type="submit" class="botaoEntra btn btn-primary">
+							Entrar
+						</button>
+					</form>
+				</div>
+
+			</div>
+
+		</header>
+
+		<div id="myModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">
+							&times;
+						</button>
+						<h4 class="modal-title"><i class="fa fa-key"></i> Esqueceu sua senha? <small>Recupere-a agora</small></h4>
+					</div>
+					<div class="modal-body">
+						<form action="" method="post" class="form-horizontal">
+							<div class="form-group">
+								<label class="col-md-2 control-label" for=""><i class="fa fa-envelope-square"></i> Email</label>
+								<div class="col-md-10">
+									<input id="" name="" placeholder="Digite seu e-mail de cadastro" class="form-control input-md" required="" type="email">
+								</div>
+							</div>
+							<div class="help-block text-center">
+								<p class="text-danger danter">
+									*Sua senha será enviada para o e-mail cadastrado.
+								</p>
+							</div>
+							<div class="form-group">
+								<div class="col-md-offset-2 col-md-10">
+									<button type="submit" class="btn btn-block btn-primary botaoRequiSenha ">
+										Requisitar Senha
+									</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		
+		
+				
+					
+						
+						
+
+		<div class="row ">
+			<footer>
+				<div class="container  footerFinal" id="contato">
+					<div class="icon col-lg-10 col-lg-offset-1 text-center">
+						<h4><strong>CAOSC</strong></h4>
+						<p>
+							R. Marciano Leite de Almeida, 660
+							<br>
+							Veneza, Xanxerê - SC, 89820-000
+
+						</p>
+						<ul class="list-unstyled">
+							<li>
+								<i class="fa fa-phone fa-fw"></i> (49)8501-0147
+							</li>
+							<li>
+								<i class="fa fa-envelope-o fa-fw "></i><a href="mailto:name@example.com" class="footerFinal">costadiones@gmail.com</a>
+							</li>
+						</ul>
+						<br>
+						<ul class="list-inline" >
+							<li>
+								<a href="https://www.facebook.com/" class="footerFinal"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+							</li>
+							<li>
+								<a href="https://twitter.com/" class="footerFinal"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+								
+							</li>
+							
+
+						</ul>
+						<hr class="small">
+						<p class="text-muted footerFinal">
+							Copyright &copy; Diones Costa
+						</p>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row ">
+						<div class="col-lg-12">
+							<ul class="list-inline ">
+								<li>
+									<a href="#topo" class="footerFinal" onclick = $("#menu-close").click();>Página Inicial</a>
+								</li>
+								<li class="footer-menu-divider">
+									&sdot;
+								</li>
+								<li>
+									<a href="#about" class="footerFinal">Saúde</a>
+								</li>
+								<li class="footer-menu-divider">
+									&sdot;
+								</li>
+								<li>
+									<a href="#services " class="footerFinal">Trabalhe Conosco</a>
+								</li>
+								<li class="footer-menu-divider">
+									&sdot;
+								</li>
+								<li>
+									<a href="#contact" class="footerFinal">Saiba mais</a>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+			</footer>
+		</div>
+
+		<script src="js/jquery.js"></script>
+		<script src="js/script.js"></script>
+
+		<script src="js/bootstrap.min.js"></script>
+
+		<script>
+			$("#menu-close").click(function(e) {
+				e.preventDefault();
+				$("#sidebar-wrapper").toggleClass("active");
+			});
+
+			$("#menu-toggle").click(function(e) {
+				e.preventDefault();
+				$("#sidebar-wrapper").toggleClass("active");
+			});
+			
+			
+	
+
+		</script>
+
+	</body>
+</html>
