@@ -19,7 +19,9 @@ body {
 .navbar {
 	background-color: #2E24F2 !important;
 }
-
+.btnCadastro{
+	float: right;
+}
 #wrapper {
     padding-left: 0;
 }
